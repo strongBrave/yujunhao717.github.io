@@ -1,131 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Junhao Yu">
-  <meta
-    name="description"
-    content="Junhao Yu is a final-year undergraduate student at Chongqing University and an incoming M.S. student at Beijing Normal University working on human-centric 3D vision."
-  >
-  <title>Junhao Yu | Human-Centric 3D Vision</title>
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3EJY%3C/text%3E%3C/svg%3E">
-</head>
-<body>
-  <div class="site-shell">
-    <div class="layout">
-      <aside class="profile-card">
-        <a class="profile-avatar" href="images/github_profile.jpg" target="_blank" rel="noopener noreferrer">
-          <img src="images/github_profile.jpg" alt="Portrait of Junhao Yu">
-        </a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Junhao Yu">
+    <meta
+      name="description"
+      content="Junhao Yu is a final-year undergraduate student at Chongqing University and an incoming M.S. student at Beijing Normal University working on human-centric 3D vision."
+    >
+    <meta
+      name="keywords"
+      content="Junhao Yu, Human-Centric 3D Vision, Hand-Object Interaction, Chongqing University, Beijing Normal University"
+    >
+    <title>Junhao Yu | Homepage</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='88'%3EJY%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="css/home.css?v=1">
+    <script src="script/home.js?v=1" defer></script>
+  </head>
+  <body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
 
-        <div class="profile-copy">
+    <nav class="top-nav" aria-label="Section navigation">
+      <div class="top-nav-inner">
+        <a href="#homepage">Homepage</a>
+        <a href="#about">About Me</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#services">Academic Services</a>
+      </div>
+    </nav>
+
+    <main class="page-shell">
+      <section class="hero section-card" id="homepage">
+        <div class="hero-copy">
+          <div class="section-heading" id="about">
+            <p class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">&#10022;</span>About Me</p>
+          </div>
           <h1>Junhao Yu</h1>
-          <p class="profile-role">
-            B.S. at
+          <p class="hero-lead">
+            I am a final-year undergraduate in Artificial Intelligence at
             <a href="https://www.cqu.edu.cn/" target="_blank" rel="noopener noreferrer">Chongqing University</a>
-            · Incoming M.S. at
-            <a href="https://ai.bnu.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Normal University</a>
+            and an incoming M.S. student at
+            <a href="https://ai.bnu.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Normal University</a>.
           </p>
-          <p class="profile-note">Currently based in Chongqing, China.</p>
-          <p class="profile-note">
-            Joining <a href="https://zhanghongwen.cn/" target="_blank" rel="noopener noreferrer">Hongwen Zhang</a>'s group in Sep 2026.
-          </p>
-
-          <nav class="profile-links" aria-label="Profile links">
-            <a href="mailto:yujunhao@stu.cqu.edu.cn">Email</a>
-            <a href="assets/cv/junhao_yu_cv_20260319_links.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-            <a href="https://scholar.google.com/citations?user=2sxrrdQAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Scholar</a>
-            <a href="https://github.com/strongBrave/" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </nav>
-        </div>
-      </aside>
-
-      <main class="main-column">
-        <section id="about" class="content-section">
-          <h2>About</h2>
           <p>
-            I am a final-year undergraduate in Artificial Intelligence at Chongqing University and an incoming M.S. student
-            at Beijing Normal University, where I will work with
-            <a href="https://zhanghongwen.cn/" target="_blank" rel="noopener noreferrer">Hongwen Zhang</a>
-            starting in September 2026. My research focuses on human-centric 3D vision, especially hand-object interaction,
-            human-scene interaction, and 3D reconstruction / generation. I have conducted research with
+            Starting in September 2026, I will join
+            <a href="https://zhanghongwen.cn/" target="_blank" rel="noopener noreferrer">Hongwen Zhang</a>'s group at Beijing Normal University.
+            My research focuses on human-centric 3D vision, especially hand-object interaction,
+            human-scene interaction, and 3D reconstruction / generation.
+          </p>
+          <p>
+            I have conducted research with
             <a href="https://scholar.google.com/citations?user=ogXIdlYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Yebin Liu</a>
             at Tsinghua University and
             <a href="https://pengsida.net/" target="_blank" rel="noopener noreferrer">Sida Peng</a>
-            at Zhejiang University.
+            at Zhejiang University. I am currently based in Chongqing, China.
           </p>
-        </section>
 
-        <section id="news" class="content-section">
-          <h2>News</h2>
-          <ul class="news-list">
-            <li>
-              <time datetime="2026-09">Sep 2026</time>
-              <span>Joining Beijing Normal University as an incoming M.S. student, advised by <a href="https://zhanghongwen.cn/" target="_blank" rel="noopener noreferrer">Hongwen Zhang</a>.</span>
-            </li>
-            <li>
-              <time datetime="2026-03">Mar 2026</time>
-              <span>First-author paper published in <strong>IEEE TKDE</strong>.</span>
-            </li>
-            <li>
-              <time datetime="2025">2025</time>
-              <span><strong>BoxDreamer</strong> appeared at <strong>ICCV 2025</strong> as a fourth-author project.</span>
-            </li>
-            <li>
-              <time datetime="2025-07">Jul-Dec 2025</time>
-              <span>Remote research internship with <a href="https://scholar.google.com/citations?user=ogXIdlYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Yebin Liu</a>'s group on single-view hand-object reconstruction.</span>
-            </li>
-          </ul>
-        </section>
+          <div class="hero-pills">
+            <span>Hand-Object Interaction</span>
+            <span>Human-Scene Interaction</span>
+            <span>3D Reconstruction / Generation</span>
+          </div>
 
-        <section id="publications" class="content-section">
-          <h2>Selected Publications</h2>
+          <div class="hero-links" aria-label="External links">
+            <a href="assets/cv/junhao_yu_cv_20260319_links.pdf" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 3.75A1.75 1.75 0 0 1 8.75 2h5.19c.46 0 .9.18 1.23.51l3.32 3.32c.33.33.51.77.51 1.23v11.19A1.75 1.75 0 0 1 17.25 20h-8.5A1.75 1.75 0 0 1 7 18.25V3.75Zm7 0v2.5c0 .41.34.75.75.75h2.5L14 3.75ZM9.5 11a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Zm0 3a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5h-5Z"/>
+              </svg>
+              <span>CV</span>
+            </a>
+            <a href="mailto:yujunhao@stu.cqu.edu.cn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3.75 5A1.75 1.75 0 0 0 2 6.75v10.5C2 18.22 2.78 19 3.75 19h16.5c.97 0 1.75-.78 1.75-1.75V6.75C22 5.78 21.22 5 20.25 5H3.75Zm0 1.5h16.5a.25.25 0 0 1 .16.44l-7.67 6.29a1.15 1.15 0 0 1-1.48 0L3.59 6.94a.25.25 0 0 1 .16-.44Z"/>
+              </svg>
+              <span>Email</span>
+            </a>
+            <a href="https://scholar.google.com/citations?user=2sxrrdQAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3 2 8l10 5 8-4v6h2V8L12 3Zm-5 9.57V16c0 1.93 3.13 3.5 5 3.5s5-1.57 5-3.5v-3.43l-5 2.5-5-2.5Z"/>
+              </svg>
+              <span>Google Scholar</span>
+            </a>
+            <a href="https://github.com/strongBrave/" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.59 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.21-3.37-1.21-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .08 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.08 0-1.12.39-2.03 1.03-2.74-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 7.3c.85 0 1.71.12 2.51.36 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.71 1.03 1.62 1.03 2.74 0 3.95-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.59.69.49A10.26 10.26 0 0 0 22 12.25C22 6.59 17.52 2 12 2Z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
 
-          <article class="publication-item">
-            <div class="publication-topline">
-              <span class="venue-pill">ICCV 2025</span>
-              <span class="role-note">Fourth Author</span>
+        <aside class="hero-portrait">
+          <div class="portrait-card" data-avatar-swap tabindex="0">
+            <img src="images/github_profile.jpg" alt="Portrait of Junhao Yu">
+            <img class="portrait-overlay" src="images/JunhaoYu.jpg" alt="Alternate portrait of Junhao Yu">
+          </div>
+          <p class="portrait-note">Hover the portrait for a different version.</p>
+          <p class="recent-status">
+            <span class="recent-status-heart" aria-hidden="true">&#10084;</span>
+            Incoming M.S. student at Beijing Normal University, joining Hongwen Zhang's group in September 2026.
+            <span class="recent-status-heart" aria-hidden="true">&#10084;</span>
+          </p>
+        </aside>
+      </section>
+
+      <section class="section-card" id="news">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">&#127881;</span>News</p>
+        </div>
+        <div class="news-scroll" aria-label="Latest news">
+          <div class="news-list">
+            <article class="news-item">
+              <p class="news-date">2026.09</p>
+              <p>
+                Joining
+                <a href="https://ai.bnu.edu.cn/" target="_blank" rel="noopener noreferrer">Beijing Normal University</a>
+                as an incoming M.S. student, advised by
+                <a href="https://zhanghongwen.cn/" target="_blank" rel="noopener noreferrer">Hongwen Zhang</a>.
+              </p>
+            </article>
+            <article class="news-item">
+              <p class="news-date">2026.03</p>
+              <p>My first-author paper is published in <strong>IEEE TKDE</strong>.</p>
+            </article>
+            <article class="news-item">
+              <p class="news-date">2025</p>
+              <p><strong>BoxDreamer</strong> appears at <strong>ICCV 2025</strong> as a fourth-author project.</p>
+            </article>
+            <article class="news-item">
+              <p class="news-date">2025.07-12</p>
+              <p>
+                Remote research internship with
+                <a href="https://scholar.google.com/citations?user=ogXIdlYAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Yebin Liu</a>'s
+                group on single-view hand-object reconstruction.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-card publications-section" id="publications">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">&#128218;</span>Selected Publications</p>
+        </div>
+        <p class="annotation">Highlighted publication marks my current first-author work.</p>
+
+        <div class="projects">
+          <article class="project project-featured">
+            <a class="project-media" href="assets/papers/cdgfn_tkde_2026.pdf" target="_blank" rel="noopener noreferrer">
+              <img src="images/projects/tkde-placeholder.svg" alt="Placeholder teaser for TKDE 2026 paper">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="tag tag-strong">Featured</span>
+                <span class="tag">IEEE TKDE 2026</span>
+              </div>
+              <h3>
+                <a href="assets/papers/cdgfn_tkde_2026.pdf" target="_blank" rel="noopener noreferrer">
+                  A CDGFN-Based Quantum Multisource Information Fusion With Its Application in Time Series Classification
+                </a>
+              </h3>
+              <p class="authors">
+                <strong>Junhao Yu</strong>, Fuyuan Xiao, Yi Zhang, Zehong Cao, Chin-Teng Lin
+              </p>
+              <p class="venue">IEEE Transactions on Knowledge and Data Engineering (TKDE), 2026</p>
+              <p>Quantum multisource information fusion for time series classification with a CDGFN-based framework.</p>
+              <p class="links">
+                <a href="assets/papers/cdgfn_tkde_2026.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+              </p>
             </div>
-            <h3>BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation</h3>
-            <p class="authors">
-              Yuanhong Yu, Xingyi He, Chen Zhao, <strong class="me">Junhao Yu</strong>, Jiaqi Yang,
-              Ruizhen Hu, Yujun Shen, Xing Zhu, Xiaowei Zhou,
-              <a href="https://pengsida.net/" target="_blank" rel="noopener noreferrer">Sida Peng</a>
-            </p>
-            <p class="publication-links">
-              <a href="assets/papers/boxdreamer_iccv2025.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
-              <span>/</span>
-              <a href="https://zju3dv.github.io/boxdreamer/" target="_blank" rel="noopener noreferrer">Project</a>
-              <span>/</span>
-              <a href="https://github.com/zju3dv/BoxDreamer" target="_blank" rel="noopener noreferrer">Code</a>
-            </p>
           </article>
 
-          <article class="publication-item">
-            <div class="publication-topline">
-              <span class="venue-pill">IEEE TKDE 2026</span>
-              <span class="role-note">First Author</span>
+          <article class="project">
+            <a class="project-media" href="https://zju3dv.github.io/boxdreamer/" target="_blank" rel="noopener noreferrer">
+              <img src="images/projects/boxdreamer-placeholder.svg" alt="Placeholder teaser for BoxDreamer project">
+            </a>
+            <div class="project-body">
+              <div class="project-meta">
+                <span class="tag">ICCV 2025</span>
+                <span class="tag tag-accent">Fourth Author</span>
+              </div>
+              <h3>
+                <a href="https://zju3dv.github.io/boxdreamer/" target="_blank" rel="noopener noreferrer">
+                  BoxDreamer: Dreaming Box Corners for Generalizable Object Pose Estimation
+                </a>
+              </h3>
+              <p class="authors">
+                Yuanhong Yu, Xingyi He, Chen Zhao, <strong>Junhao Yu</strong>, Jiaqi Yang, Ruizhen Hu, Yujun Shen, Xing Zhu,
+                Xiaowei Zhou, <a href="https://pengsida.net/" target="_blank" rel="noopener noreferrer">Sida Peng</a>
+              </p>
+              <p class="venue">International Conference on Computer Vision (ICCV), 2025</p>
+              <p>Generalizable object pose estimation by predicting box corners for robust geometric reasoning.</p>
+              <p class="links">
+                <a href="assets/papers/boxdreamer_iccv2025.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
+                <a href="https://zju3dv.github.io/boxdreamer/" target="_blank" rel="noopener noreferrer">Project</a>
+                <a href="https://github.com/zju3dv/BoxDreamer" target="_blank" rel="noopener noreferrer">Code</a>
+              </p>
             </div>
-            <h3>A CDGFN-Based Quantum Multisource Information Fusion With Its Application in Time Series Classification</h3>
-            <p class="authors">
-              <strong class="me">Junhao Yu</strong>, Fuyuan Xiao, Yi Zhang, Zehong Cao, Chin-Teng Lin
-            </p>
-            <p class="publication-links">
-              <a href="assets/papers/cdgfn_tkde_2026.pdf" target="_blank" rel="noopener noreferrer">Paper</a>
-            </p>
           </article>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
 
-    <footer class="site-footer">
-      <p>
-        Last updated: March 26, 2026.
-        <a href="https://github.com/strongBrave/strongBrave.github.io" target="_blank" rel="noopener noreferrer">Source</a>
-      </p>
-    </footer>
-  </div>
-</body>
+      <section class="section-card" id="services">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="eyebrow-icon" aria-hidden="true">&#10003;</span>Academic Services</p>
+        </div>
+        <div class="service-grid">
+          <div>
+            <h3>Updates Coming Soon</h3>
+            <p>More academic service information will be added here as it becomes available.</p>
+            <p>I am always happy to connect on research collaborations and related academic discussions.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>
+          Last updated: March 29, 2026.
+          <a href="https://github.com/strongBrave/strongBrave.github.io" target="_blank" rel="noopener noreferrer">Source</a>
+        </p>
+      </footer>
+    </main>
+  </body>
 </html>
