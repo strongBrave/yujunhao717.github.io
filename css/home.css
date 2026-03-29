@@ -484,12 +484,13 @@ h3 {
   padding: 10px;
   background: linear-gradient(180deg, rgba(252, 249, 245, 0.95), rgba(239, 231, 220, 0.9));
   border: 1px solid rgba(31, 41, 55, 0.08);
+  aspect-ratio: 16 / 10;
   min-height: 180px;
 }
 
 .project-media img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
 }
 
